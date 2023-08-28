@@ -3,24 +3,38 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TipCalculator.MainPage">
 
-    <VerticalStackLayout>
-        <Label Text="Total da conta"/>
+    <VerticalStackLayout Padding="40" Spacing="10">
+        <HorizontalStackLayout Spacing="10">
+        <Label Text="Total da conta" WidthRequest="100" VerticalOptions="Center"/>
         <Entry x:Name="billInput" Placeholder="Insira o valor" Keyboard="Numeric"/>
-        <Label Text="Gorjeta"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout Spacing="10" Margin="0,20,0,0">
+        <Label Text="Gorjeta" WidthRequest="100"/>
         <Label x:Name="tipOutput" Text="0.00"/>
+        </HorizontalStackLayout>
 
-        <Label Text="Total"/>
+        <HorizontalStackLayout Spacing="10">
+        <Label Text="Total" WidthRequest="100"/>
         <Label x:Name="totalOutput" Text="0.00"/>
+        </HorizontalStackLayout>
 
-        <Label Text="Porcentagem de gorjeta"/>
+        <HorizontalStackLayout VerticalOptions="End" Spacing="10">
+        <Label Text="Porcentagem de gorjeta" WidthRequest="100"/>
         <Label x:Name="tipPercent" Text="15%"/>
+        </HorizontalStackLayout>
+        
         <Slider x:Name="tipPercentSlider" Minimum="0" Maximum="100" Value="15"/>
 
-        <Button Text="15%" Clicked="OnNormalTip"/>
-        <Button Text="20%" Clicked="OnGenerousTip"/>
+        <HorizontalStackLayout Spacing="10" Margin="0,20,0,0">
+        <Button Text="15%" HorizontalOptions="Center" WidthRequest="150" Clicked="OnNormalTip"/>
+        <Button Text="20%" HorizontalOptions="Center" WidthRequest="150" Clicked="OnGenerousTip"/>
+        </HorizontalStackLayout>
 
-        <Button x:Name="roundDown" Text="Arredondar para baixo"/>
-        <Button x:Name="roundUp" Text="Arredondar para cima"/>
+        <HorizontalStackLayout Spacing="10" Margin="0,20,0,0">
+        <Button x:Name="roundDown" HorizontalOptions="Center" WidthRequest="150" Text="Arredondar para baixo"/>
+        <Button x:Name="roundUp" HorizontalOptions="Center" WidthRequest="150" Text="Arredondar para cima"/>
+        </HorizontalStackLayout>
     </VerticalStackLayout>
 
 </ContentPage>
