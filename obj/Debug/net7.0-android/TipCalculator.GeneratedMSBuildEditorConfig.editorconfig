@@ -12,33 +12,33 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = TipCalculator
-build_property.ProjectDir = C:\Users\leeo1\Área de Trabalho\Programming\2sem\PMI\TipCalculator\
+build_property.ProjectDir = D:\Miguel_Leonardo-2DS\PMI\TipCalculator\
 
-[C:/Users/leeo1/Área de Trabalho/Programming/2sem/PMI/TipCalculator/App.xaml]
+[D:/Miguel_Leonardo-2DS/PMI/TipCalculator/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TipCalculator.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/leeo1/Área de Trabalho/Programming/2sem/PMI/TipCalculator/AppShell.xaml]
+[D:/Miguel_Leonardo-2DS/PMI/TipCalculator/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TipCalculator.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/leeo1/Área de Trabalho/Programming/2sem/PMI/TipCalculator/MainPage.xaml]
+[D:/Miguel_Leonardo-2DS/PMI/TipCalculator/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TipCalculator.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/leeo1/Área de Trabalho/Programming/2sem/PMI/TipCalculator/Resources/Styles/Colors.xaml]
+[D:/Miguel_Leonardo-2DS/PMI/TipCalculator/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TipCalculator.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/leeo1/Área de Trabalho/Programming/2sem/PMI/TipCalculator/Resources/Styles/Styles.xaml]
+[D:/Miguel_Leonardo-2DS/PMI/TipCalculator/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TipCalculator.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
